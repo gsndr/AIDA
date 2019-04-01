@@ -19,7 +19,7 @@ Packages need are:
 * [Scikit-learn](https://scikit-learn.org/stable/)
 
 ## Data
-The 
+The dataset used for experiments is accessible from [__NSL-KDD__](https://www.unb.ca/cic/datasets/nsl.html). Original dataset is transformed in a binary classification: "_attack_, _normal_" (oneCls files) and then the  feature  selection  stage  is  performed  by  retain  the  10top-ranked  features  according  to  __Information  Gain(IG)__ (file  
 
 
 ## How to use
