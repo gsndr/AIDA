@@ -1,6 +1,8 @@
 # Auto-encoding-basedAnomaly  Detection  forIntrusionDetection   via   ClAssification (AIDA)
 
-The repository contains code  
+The repository contains code refered to the work:
+*Giuseppina Andresini, Annalisa Appice, Nicola Di Mauro, Corrado Loglisci, Donato Malerba *\
+Exploiting the Auto-Encoder Residual Error forIntrusion Detection \
 
 
 ## Code requirements
@@ -23,11 +25,11 @@ Repository contains script of different baseline:
   * Classification model is a neural netowrk with a final softmax layer which use data augmented with residual-error (Section     III-D)
   * Autoencoder2 is used for residual-error anomaly-based post-classification (Section III-D)
   
- Code contains 
+ Code contains models (autoencoder and classification) and datasets used for experiments in 
   
 
 
-## Example (Optional)
+## Variable(Optional)
 
 ```python
     N_CLASSES = 2
