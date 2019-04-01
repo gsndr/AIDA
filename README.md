@@ -4,7 +4,7 @@ The repository contains code refered to the work:
 
 _Giuseppina Andresini, Annalisa Appice, Nicola Di Mauro, Corrado Loglisci, Donato Malerba_
 
-Exploiting the Auto-Encoder Residual Error forIntrusion Detection 
+Exploiting the Auto-Encoder Residual Error for Intrusion Detection 
 
 
 ## Code requirements
@@ -21,11 +21,11 @@ Packages need are:
 
 ## How to use
 Repository contains script of different baseline:
-* C1+A1 : script Autoencoder1+ Classification contains code to execute Autoecndoer and Classifcation cascade without error residual feature
-* AIDA : script AIDA contains entire step to execute the three AIDA phase: 
-  * Autoencoder1 model is used for residual-error feature augmentation (Section III-B)
-  * Classification model is a neural netowrk with a final softmax layer which use data augmented with residual-error (Section     III-D)
-  * Autoencoder2 is used for residual-error anomaly-based post-classification (Section III-D)
+* __C1+A1__ : script Autoencoder1+ Classification contains code to execute Autoecndoer and Classifcation cascade without error residual feature
+* __AIDA__ : script AIDA contains entire step to execute the three AIDA phase: 
+  * __Autoencoder1__ model is used for residual-error feature augmentation (Section III-B)
+  * __Classification__ model is a neural netowrk with a final softmax layer which use data augmented with residual-error (Section     III-D)
+  * __Autoencoder2__ is used for residual-error anomaly-based post-classification (Section III-D)
   
  Code contains models (autoencoder and classification) and datasets used for experiments in the work.
   
@@ -37,11 +37,13 @@ To replicate experiments reported in the work, you can use global variable and m
 
 ```python
     N_CLASSES = 2
-    PREPROCESSING1 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard    scale) on original date
-    PREPROCESSING2 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard  scale) on data augmented
+    PREPROCESSING1 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard scale) on original date
+    PREPROCESSING2 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard scale) on data augmented
     LOAD_AUTOENCODER1 = 1 #if 1 load autoencoder1 from models folder
     LOAD_CLASSIFIER = 1  #if 1 load classifier  from models folder
     LOAD_MODEL = 1  #if 1 load autoencoder2 from models folder
 ```
+
+
 
 
