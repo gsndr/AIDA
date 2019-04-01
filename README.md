@@ -37,8 +37,8 @@ To replicate experiments reported in the work, you can use global variable and m
 
 ```python
     N_CLASSES = 2
-    PREPROCESSING1 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard      scale) on original date
-    PREPROCESSING2 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard      scale) on data augmented
+    PREPROCESSING1 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard    scale) on original date
+    PREPROCESSING2 = 0  #if set to 1 code execute preprocessing phase ( categorical to numeric, one-hot encode, standard  scale) on data augmented
     LOAD_AUTOENCODER1 = 1 #if 1 load autoencoder1 from models folder
     LOAD_CLASSIFIER = 1  #if 1 load classifier  from models folder
     LOAD_MODEL = 1  #if 1 load autoencoder2 from models folder
