@@ -30,7 +30,7 @@ Repository contains script of different baseline:
  Code contains models (autoencoder and classification) and datasets used for experiments in the work.
   
 
-## Variables to set to replicate experiments
+## Replicate the experiments
 
 To replicate experiments reported in the work, you can use global variable and models and datasets stored in homonym folders.
 
