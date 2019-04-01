@@ -19,8 +19,11 @@ Packages need are:
 * [Scikit-learn](https://scikit-learn.org/stable/)
 
 ## Data
-The dataset used for experiments is accessible from [__NSL-KDD__](https://www.unb.ca/cic/datasets/nsl.html). Original dataset is transformed in a binary classification: "_attack_, _normal_" (oneCls files) and then the  feature  selection  stage  is  performed  by  retain  the  10top-ranked  features  according  to  __Information  Gain(IG)__ (file  
+The dataset used for experiments is accessible from [__NSL-KDD__](https://www.unb.ca/cic/datasets/nsl.html). Original dataset is transformed in a binary classification: "_attack_, _normal_" (_oneCls files) and then the  feature  selection  stage  is  performed  by  retain  the  10top-ranked  features  according  to  __Information  Gain(IG)__ .
 
+After applying the one-hot encoder mapping to transform the selectedsymbolic features in quantitative ones, an input feature spacewith 89 quantitative features is finally constructed (_Numeric files).
+
+This inputfeature  space  is  expanded  with  the  addition  of  the  residual error feature that is engineered using the auto-encoder trainedon the non-attacking training data. (_mse_Numeric files)
 
 ## How to use
 Repository contains script of different baseline:
