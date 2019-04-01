@@ -1,8 +1,8 @@
 # Auto-encoding-basedAnomaly  Detection  forIntrusionDetection   via   ClAssification (AIDA)
 
 The repository contains code refered to the work:
-*Giuseppina Andresini, Annalisa Appice, Nicola Di Mauro, Corrado Loglisci, Donato Malerba *\
-Exploiting the Auto-Encoder Residual Error forIntrusion Detection \
+_Giuseppina Andresini, Annalisa Appice, Nicola Di Mauro, Corrado Loglisci, Donato Malerba_
+Exploiting the Auto-Encoder Residual Error forIntrusion Detection 
 
 
 ## Code requirements
