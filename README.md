@@ -18,6 +18,9 @@ Packages need are:
 * [Numpy 1.15.4](https://www.numpy.org/)
 * [Scikit-learn](https://scikit-learn.org/stable/)
 
+## Data
+The 
+
 
 ## How to use
 Repository contains script of different baseline:
@@ -28,6 +31,7 @@ Repository contains script of different baseline:
   * __Autoencoder2__ is used for residual-error anomaly-based post-classification (Section III-D)
   
  Code contains models (autoencoder and classification) and datasets used for experiments in the work.
+ 
   
 
 ## Replicate the experiments
@@ -43,7 +47,5 @@ To replicate experiments reported in the work, you can use global variable and m
     LOAD_CLASSIFIER = 1  #if 1 load classifier  from models folder
     LOAD_MODEL = 1  #if 1 load autoencoder2 from models folder
 ```
-
-
 
 
