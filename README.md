@@ -1,5 +1,7 @@
 # Auto-encoding-basedAnomaly  Detection  forIntrusionDetection   via   ClAssification (AIDA)
 
+The repository contains code  
+
 
 ## Code requirements
 
@@ -20,17 +22,20 @@ Repository contains script of different baseline:
   * Autoencoder1 model is used for residual-error feature augmentation (Section III-B)
   * Classification model is a neural netowrk with a final softmax layer which use data augmented with residual-error (Section     III-D)
   * Autoencoder2 is used for residual-error anomaly-based post-classification (Section III-D)
+  
+ Code contains 
+  
+
 
 ## Example (Optional)
 
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+```python
+    N_CLASSES = 2
+    PREPROCESSING1 = 0
+    PREPROCESSING2 = 0
+    LOAD_AUTOENCODER1 = 1
+    LOAD_CLASSIFIER = 1
+    LOAD_MODEL = 1
+    VALIDATION_SPLIT = .1
 ```
 
