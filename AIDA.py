@@ -105,10 +105,10 @@ def main():
     path = 'KDDTrain+aggregateOneCls10Features'
     pathTest = 'KDDTest+aggregateOneCls10Features'
     testpath = 'KDDTest+'
-    train = pd.read_csv(path + ".csv")
-    test = pd.read_csv(pathTest + ".csv")
-    pathOutputTrain = path + 'Numeric.csv'
-    pathOutputTest = pathTest + 'Numeric.csv'
+    train = pd.read_csv(pathDataset+path + ".csv")
+    test = pd.read_csv(pathDataset+pathTest + ".csv")
+    pathOutputTrain = pathDataset+path + 'Numeric.csv'
+    pathOutputTest = pathDataset+pathTest + 'Numeric.csv'
 
     listNumerical10 = [
         ' src_bytes', ' dst_bytes', ' diff_srv_rate', ' same_srv_rate', ' dst_host_srv_count',

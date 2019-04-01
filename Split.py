@@ -71,12 +71,13 @@ def main():
     pd.set_option('display.expand_frame_repr', False)
     tic=time.time()
     path='KDDTrain+aggregateOneCls';
+    pathDataset = 'datasets/'
     file2write = open("infoGainOneCls.txt", 'w');
     if(path==None):
         path=input("inserisci il path:")
 
     #crea oggetto della classe infoGain
-    infoG=ig(path)
+    infoG=ig(pathDataset+path)
     infoG.extractVariables()
     cls =' classification.'
     print(cls)

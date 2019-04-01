@@ -105,8 +105,8 @@ def main():
     testpath='KDDTest+'
     pathModels = 'models/'
     pathDataset = 'datasets/'
-    train = pd.read_csv(path + ".csv")
-    test = pd.read_csv(pathTest + ".csv")
+    train = pd.read_csv(pathDataset+path + ".csv")
+    test = pd.read_csv(pathDataset+pathTest + ".csv")
     pathOutputTrain = pathDataset+path + 'Numeric.csv'
     pathOutputTest = pathDataset+pathTest + 'Numeric.csv'
 
