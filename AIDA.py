@@ -250,8 +250,8 @@ def main():
 
     pathOutputTrain = pathDataset + path + 'mse_Numeric.csv'
     pathOutputTest = pathDataset + pathTest + 'mse_Numeric.csv'
-    train = pd.read_csv(path + ".csv")
-    test = pd.read_csv(pathTest + ".csv")
+    train = pd.read_csv(pathDataset+path + ".csv")
+    test = pd.read_csv(pathDataset+pathTest + ".csv")
 
     train[columnNameErrorN] = mseTrain[columnNameErrorN]
     test[columnNameErrorN] = mseTest[columnNameErrorN]
