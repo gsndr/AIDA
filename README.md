@@ -15,6 +15,7 @@ Packages need are:
 * [Tensorflow 1.13](https://www.tensorflow.org/) 
 * [Keras 2.2.4](https://github.com/keras-team/keras) 
 * [Matplotlib 3.0.3](https://matplotlib.org/)
+* [Pandas 0.24.2](https://pandas.pydata.org/)
 * [Numpy 1.15.4](https://www.numpy.org/)
 * [Scikit-learn](https://scikit-learn.org/stable/)
 
