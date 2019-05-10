@@ -24,10 +24,10 @@ The dataset used for experiments is accessible from [__NSL-KDD__](https://www.un
 
 After applying the one-hot encoder mapping to transform the selectedsymbolic features in quantitative ones, an input feature spacewith 89 quantitative features is finally constructed (_Numeric files).
 
-This inputfeature  space  is  expanded  with  the  addition  of  the  residual error feature that is engineered using the auto-encoder trainedon the non-attacking training data. (_mse_Numeric files)
+This input features  space  is  expanded  with  the  addition  of  the  residual error feature that is engineered using the auto-encoder trainedon the non-attacking training data. (_mse_Numeric files)
 
 ## How to use
-Repository contains script of different baseline:
+Repository contains scripts of different baseline:
 * __C1+A1__ : script Autoencoder1+ Classification contains code to execute Autoecndoer and Classifcation cascade without error residual feature
 * __AIDA__ : script AIDA contains entire step to execute the three AIDA phase: 
   * __Autoencoder1__ model is used for residual-error feature augmentation (Section III-B)
