@@ -1,4 +1,4 @@
-# Auto-encoding-basedAnomaly  Detection  forIntrusionDetection   via   ClAssification (AIDA)
+# Auto-encoding-basedAnomaly  Detection  for IntrusionDetection   via   ClAssification (AIDA)
 
 The repository contains code refered to the work:
 
