@@ -4,7 +4,7 @@ The repository contains code refered to the work:
 
 _Giuseppina Andresini, Annalisa Appice, Nicola Di Mauro, Corrado Loglisci, Donato Malerba_
 
-Exploiting the Auto-Encoder Residual Error for Intrusion Detection 
+[Exploiting the Auto-Encoder Residual Error for Intrusion Detection ] (https://ieeexplore.ieee.org/abstract/document/8802420)
 
 
 ## Code requirements
