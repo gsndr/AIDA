@@ -6,6 +6,17 @@ _Giuseppina Andresini, Annalisa Appice, Nicola Di Mauro, Corrado Loglisci, Donat
 
 [Exploiting the Auto-Encoder Residual Error for Intrusion Detection ](https://ieeexplore.ieee.org/abstract/document/8802420)
 
+Please cite our work if you find it useful for your research and work.
+```
+  @INPROCEEDINGS{8802420, 
+  author={G. {Andresini} and A. {Appice} and N. {Di Mauro} and C. {Loglisci} and D. {Malerba}}, 
+  booktitle={2019 IEEE European Symposium on Security and Privacy Workshops (EuroS PW)},
+  title={Exploiting the Auto-Encoder Residual Error for Intrusion Detection}, 
+  year={2019}, 
+  volume={}, 
+  number={}, 
+  pages={281-290},}
+```
 
 ## Code requirements
 
