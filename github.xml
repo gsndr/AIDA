@@ -1,7 +1,0 @@
-<application>
-  <component name="GithubAccounts">
-    <account id="3217daad-cdaa-4f59-b5d8-9b2e586f4edf" name="gsndr">
-      <server host="github.com" />
-    </account>
-  </component>
-</application>
